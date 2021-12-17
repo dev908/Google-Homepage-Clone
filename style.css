@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#nav a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#nav a.image {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+#middle-section {
+    margin-top: 150px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    
+    margin-top: 15px;
+    text-align: center;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    outline: 0;
+    width: 550px;
+    border-radius: 100px;
+    border: 2px solid #d8d8d8;
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px rgb(226, 226, 226);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: rgb(233, 232, 232);
+    border: 2px solid #eeeeee;
+    outline: 0;
+    border-radius: 50px;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 2px rgb(194, 193, 193);
+}
